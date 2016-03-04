@@ -1,0 +1,293 @@
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+a:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px
+}
+
+a:hover,a:active {
+	outline: 0
+}
+
+button,input,select,textarea {
+	margin: 0;
+	outline: none;
+	font-size: 100%;
+	vertical-align: middle
+}
+
+a,img,div,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+
+button,input {
+	overflow: visible;
+	line-height: normal
+}
+
+p {
+	margin: 0 0 10px
+}
+
+body {
+	margin: 0;
+	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #555555;
+	overflow-x: hidden;
+	background-color: #9bd5c7;
+}
+
+a {
+	text-decoration: none;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.mainwrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+}
+#login{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	position: absolute;  
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+	background-color: #badfd7;
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	box-sizing: border-box;
+}
+#loginmusic{
+	width: 100%;
+	height: 60px;
+}
+#loginmusic div{
+	float: right;
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+	line-height: 60px;
+	color: #eee;
+	font-size: 1rem;
+	border-radius: 50%;
+	background-color: #f79483;
+}
+#loginmusic div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#logincenter{
+	margin-top: 80px;
+}
+.maincenter{
+	width: 400px;
+	margin: auto;
+}
+#loginlogo{
+	width: 500px;
+	margin: auto;
+	font-size: 3rem;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+	left: -30px;
+}
+#loginlogo img{
+	width: 100%;
+	height: 100%;
+}
+
+#loginform{
+
+}
+#loginform div{
+	
+}
+.mainform {
+	width: 100%;
+}
+.mainform div{
+	width: 80%;
+}
+
+#loginbtn{
+	margin-top: 40px;
+	background-color: #f26b8f;
+}
+#newaccount a{
+	color: #999;
+	font-size: 1.0rem;
+}
+#newaccount a:hover{
+	text-decoration: underline;
+}
+
+#signup{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	position: absolute;  
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+	background-color: #badfd7;
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	box-sizing: border-box;
+}
+#signuplogo{
+	width: 300px;
+	margin-left: 200px;
+}
+#signuplogo img{
+	width: 100%;
+	height: 100%;
+}
+#signupcenter{
+
+}
+#signuptitle{
+	font-size: 3rem;
+	color: #fff;
+}
+#signupform{
+	margin-top: 20px;
+}
+#signupform div{
+	
+}
+
+#signupbtn{
+	background-color: #f26b8f;
+}
+#hasaccount a{
+	color: #999;
+	font-size: 1.0rem;
+}
+#hasaccount a:hover{
+	text-decoration: underline;
+}
+
+@media (max-width: 1366px) {
+#signuplogo{
+	margin-left: 100px;
+}
+}
+@media (max-width: 650px) {
+.maincenter{
+	width: 80%;
+}
+#loginlogo{
+	width: 300px;
+	left: 0;
+}
+#signuplogo{
+	margin-left: 0;
+}
+
+}
+@media (max-width: 450px) {
+#loginlogo{
+	width: 100%;
+}
+.maincenter{
+	width: 100%;
+}
+}
+
+@media (max-height: 860px) {
+#signupform {
+    margin-top: 0;
+}
+#signuplogo{
+	width: 200px;
+}
+#loginbtn{
+	margin-top: 30px;
+}
+#signupform .inputtext{
+	height: 70px !important;
+}
+}
+
+@media (max-height: 768px) {
+#logincenter{
+	margin-top: 20px;
+}
+#signuplogo{
+	width: 100px;
+}
+#signupform .inputtext{
+	height: 60px !important;
+}
+.inputradio{
+	margin-top: 20px !important;
+	margin-bottom: 0 !important;
+}
+#signupbtn{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+}
+@media (max-height: 620px) {
+#logincenter{
+	margin-top: 30px;
+}
+#loginmusic{
+	display: none;
+}
+#signuptitle{
+	font-size: 2rem;
+}
+#signuplogo{
+	display: none;
+}
+}
+@media (max-height: 550px) {
+#logincenter{
+	margin-top: 0;
+}
+#loginform .inputtext{
+	height: 60px !important;
+}
+#loginbtn{
+	margin-top: 30px;
+}
+#signup{
+	padding-top: 5px;
+}
+#signupbtn{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+}
+
+
+/*audio标签*/
+#musicaudio{
+	display: none;
+}

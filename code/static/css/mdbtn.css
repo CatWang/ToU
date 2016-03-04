@@ -1,0 +1,68 @@
+.mdbtn{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.submitbutton{
+	cursor: pointer;
+	width: 80px;
+	height: 60px;
+	border: 0;
+	line-height: 60px;
+	font-size: 1.2rem;
+	border-radius: 30px;
+	margin: 30px auto;
+	color: #eee;
+	-webkit-transition: width 0.5s ease;
+	-moz-transition: width 0.5s ease;
+	-ms-transition: width 0.5s ease;
+	-o-transition: width 0.5s ease;
+	transition: width 0.5s ease;
+}
+.submitbutton.loading{
+	width: 60px !important;
+	overflow: hidden;
+	text-indent: -9999em;
+	 -webkit-animation: rotation 1s ease-in-out infinite 0.5s;
+       -moz-animation: rotation 1s ease-in-out infinite 0.5s;
+            animation: rotation 1s ease-in-out infinite 0.5s;
+}
+.submitbutton.loading:after{
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 50%;
+    background-color: rgba(255,255,255,1);
+    border-radius: 100%;
+    position: absolute;
+    content: "";
+    -webkit-animation: show 0.5s ease-in-out;
+       -moz-animation: show 0.5s ease-in-out;
+            animation: show 0.5s ease-in-out;
+}
+@-webkit-keyframes show{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@-moz-keyframes show{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes show{
+    0%{ opacity:0;}
+    100%{ opacity:1;}
+}
+@-webkit-keyframes rotation{
+    0%{-webkit-transform: rotate(0deg);}
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotation{
+    0%{-moz-transform: rotate(0deg);}
+    100%{-moz-transform: rotate(360deg);}
+}
+@keyframes rotation{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}

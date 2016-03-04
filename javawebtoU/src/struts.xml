@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+        <package name="Action" extends="struts-default">
+                <action name="RegisterAction" class="Action.RegisterAction">
+                        <result name="success">
+                                /index.jsp
+                        </result>
+                        <result name="input">
+                                /cant-register.html
+                        </result>
+                </action>
+
+                <action name="LoginAction" class="Action.LoginAction">
+                        <result name="success">
+                                /index.jsp
+                        </result>
+                        <result name="input">
+                               /cant-login.html
+                        </result>
+                </action>
+                <action name="SendBindRequestAction" class="Action.SendBindRequestAction">
+                        <result name="success">
+                                /invitation-send.html
+                        </result>
+                        <result name="input">
+                                /fail-to-bind.html
+                        </result>
+                </action>
+                <action name="SendBindRefuseAction" class="Action.SendBindRefuseAction">
+                        <result name="success">
+                                /message-send.html
+                        </result>
+                        <result name="input">
+                                /message-fail.html
+                        </result>
+                </action>
+                <action name="GotoSpaceAction" class="Action.GotoSpaceAction">
+                        <result name="success">
+                                <!--/space_pic.jsp-->
+                        </result>
+                        <result name="input">
+                                /no-space.html
+                        </result>
+                </action>
+                <action name="GotoArticleAction" class="Action.GoToArticleAction">
+                        <result name="success">
+                                <!--/space_article.jsp-->
+                        </result>
+                </action>
+                <action name="GotoRemainderAction" class="Action.GotoRemainderAction">
+                        <result name="success">
+                                <!--/space_remainder.jsp-->
+                        </result>
+                </action>
+                <action name="GotoDaysAction" class="Action.GotoDaysAction">
+                        <result name="success">
+                                <!--/space_days.jsp-->
+                        </result>
+                </action>
+                <action name="AddImageAction" class="Action.AddImageAction">
+                        <result name="success">
+                                GotoSpaceAction.action
+                        </result>
+                        <result name="input">
+                                fail.html
+                        </result>
+                </action>
+        </package>
+</struts>

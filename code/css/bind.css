@@ -1,0 +1,34 @@
+#bind{
+	text-align: center;
+	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#bindtitle{
+	font-size: 1.5rem;
+	line-height: 3rem;
+	text-align: left;
+	text-indent: 2em;
+	border-bottom: 1px solid #aaa;
+}
+#bindwrap{
+	padding: 20px;
+	max-width: 400px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+#bindintro{
+
+}
+.bindtext{
+	font-size: 1.3rem;
+	line-height: 2.5rem;
+}
+#bindtarget{
+	width: 80%;
+	margin: auto;
+}
+#bindbtn{
+	width: 60%;
+	background-color: #f26b8f;
+}

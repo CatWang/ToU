@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="apple-mobile-app-status-bar-style" content="black" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" />
+	    <title>首页</title>
+	    <link href="assets/stylesheets/default.css" rel="stylesheet" type="text/css"> 
+
+	    <link rel="stylesheet" href="css/index.css">
+	    <link rel="stylesheet" href="static/css/toolbar.css">
+	    <script src="static/js/index.js"></script>
+	</head>
+	<body>
+
+			<div class="container">
+			<div class="beforeheader">
+				<div class="headerusername">用户名</div>
+				<div class="headermusiccontroller"><img src="static/img/turn_off.png"alt=""></div>
+			</div>
+			<div class="header">
+				<div class="logoandname">
+					<div class="spirit_bear inline" style="margin-right:72px;"></div>
+					<h3> To U </h3>
+					<div class="spirit_mofu inline" style="margin-left:72px;"></div>
+				</div>
+				<div class="search">
+					<input></input>
+					<div class="search_button"><span><img src="images/search.jpg" ></span></div>
+				</div>
+			</div>
+			<div class="main-nav">				
+				<ul class="toolbar" id="main_toolbar">
+					<li class="toolbar_content toolbar_animate_1"><span><a href="login.html" class="tool-text">退出</a></span></li>
+					<li class="toolbar_content toolbar_animate_2"><span><a href="space_pics.html" class="tool-text">空间</a></span></li>
+					<li class="toolbar_content toolbar_animate_3"><span><a href="friends.html" class="tool-text">朋友</a></span></li>
+					<li class="toolbar_content toolbar_animate_4"><span><a href="message.html" class="tool-text">消息</span></a></li>
+					<li class="toolbar_content toolbar_animate_5"><span><a href="fsetting.html" class="tool-text">设置</span></a></li>
+					<li class="toolbar_content toolbar_btn" id="toolbar_btn"><div class="rotate_heart hand" id="rotate_heart">❤</div></li>
+				</ul>
+			</div>
+		<div class="container subcolor ">
+			<div class="inline"> 
+				<h2 style=" ">最萌合影</h2>
+				<ul class="projCollection inline">
+					<li class="projectBlock " style="">
+						<div class="heartBtn"><div class="hBtnNum">12</div></div>
+						<div><img src="uploads/2015/11/28/00001.jpg"></img></div>
+						<div><span>&nbsp;&nbsp;&nbsp;周杰伦&昆凌&nbsp;&nbsp;&nbsp;2015-11-03</span></div>
+					</li>
+					<li class="projectBlock " style=""><div class="heartBtn"><div class="hBtnNum">12</div></div>
+						<div><img src="images/00002.jpg"></img></div>
+						<div><span>&nbsp;&nbsp;&nbsp;周杰伦&昆凌&nbsp;&nbsp;&nbsp;2015-11-03</span></div></li>
+					<li class="projectBlock " style=""><div class="heartBtn"><div class="hBtnNum">12</div></div>
+						<div><img src="images/00003.jpg"></img></div>
+						<div><span>&nbsp;&nbsp;&nbsp;周杰伦&昆凌&nbsp;&nbsp;&nbsp;2015-11-03</span></div></li>
+					<li class="projectBlock " style=""><div class="heartBtn"><div class="hBtnNum">12</div></div>
+						<div><img src="images/avatar.jpg"></img></div>
+						<div><span>&nbsp;&nbsp;&nbsp;周杰伦&昆凌&nbsp;&nbsp;&nbsp;2015-11-03</span></div></li>
+					<li class="projectBlock " style=""><div class="heartBtn"><div class="hBtnNum">12</div></div>
+						<div><img src="images/2.jpg"></img></div>
+						<div><span>&nbsp;&nbsp;&nbsp;周杰伦&昆凌&nbsp;&nbsp;&nbsp;2015-11-03</span></div></li>
+					<li class="projectBlock " style=""><div class="heartBtn"><div class="hBtnNum">12</div></div>
+						<div><img src="images/3.jpg"></img></div>
+						<div><span>&nbsp;&nbsp;&nbsp;周杰伦&昆凌&nbsp;&nbsp;&nbsp;2015-11-03</span></div></li>
+				</ul>
+			</div>
+			<div class="inline" style="vertical-align: top;">
+				<ul class="hotestLove" column="1" style="width:220px;">
+					<h2>最热告白</h2>
+					<li class="projectBlock " style="padding:8px; margin:10px 10px;"><span>这是萱子第二次失恋，第一次失恋要追溯到三年前了，那时候的萱子爱得热烈，异地恋，也要在每个周五下班后的夜里飞奔到对方的城市。</span></li>
+					<li class="projectBlock " style=" padding:8px; margin:10px 10px;"><span><div class=" hand" id="trig_modal">熬了汤盛进保温壶里，宝贝似的捧着，坐两个多小时的车去探望声称发烧的男友，进了门，看到卧床的男人正想表达心疼，被子里却探出另一颗头来。</div></span></li>
+					<li class="projectBlock " style="padding:8px; margin:10px 10px; "><span>这一路奔波，汤还是热的，心却凉了。萱子把汤一股脑泼向床上的狗男女，重重地摔上门，把屋里女人的惊叫甩在身后，逃走。</span></li>
+					<li class="projectBlock " style=" padding:8px; margin:10px 10px;"><span>萱子抬起脸盯着大严，那你欺负我怎么办？
+
+我不会欺负你的。
+
+万一呢？
+
+没有万一。</span></li>
+				</ul>
+			</div>
+			<div class="clear:both;"></div>
+		</div>
+
+
+		<div class="modal-open" id="modal-open">
+			<div class="modal hand" id="modal">
+				<div data-toggle="modal-close" id="close_modal" class="fright">×</div>
+				<div data-toggle="modal-show"></div>
+				<div data-toggle="modal-detail"></div>
+				<div data-toggle="modal-commit"></div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+window.onload=function(){
+	document.getElementById("trig_modal").onclick=function(){
+		document.getElementById("modal").style.display='block';
+		document.getElementById("modal-open").style.display='block';
+	}
+
+	document.getElementById("close_modal").onclick=function(){
+		document.getElementById("modal").style.display='none';
+		document.getElementById("modal-open").style.display='none';
+	}	
+}
+</script>
+

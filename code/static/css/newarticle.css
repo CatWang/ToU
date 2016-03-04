@@ -1,0 +1,41 @@
+#article{
+	text-align: center;
+	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#articletitle{
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	text-align: left;
+	text-indent: 2em;
+	border-bottom: 1px solid #aaa;
+}
+#articlewrap{
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+#articlewrap textarea{
+	width: 80%;
+	min-height: 400px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 1rem;
+	overflow: visible;
+	border: 0;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-radius: 10px;
+	background-color: transparent;
+}
+#articleinput{
+	width: 400px;
+	margin: auto;
+}
+#articlebtn{
+	width: 400px;
+	background-color: #f26b8f;
+}

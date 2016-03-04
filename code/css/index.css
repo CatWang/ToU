@@ -1,0 +1,89 @@
+.beforeheader{
+	position: absolute;
+	width: 100%;
+	margin-top: 5px;
+	height: 30px;
+	left: 0;
+	top: 0;
+}
+.beforeheader div{
+	float: right;
+	height: 100%;
+}
+.headerusername{
+	width: 80px;
+	padding-right: 20px;
+	padding-left: 10px;
+	height: 100%;
+	line-height: 30px;
+	text-align: center;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.headerusername a{
+	color: #fff;
+}
+.headermusiccontroller{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.headermusiccontroller img{
+	width: 100%;
+	height: 100%;
+}
+#musicaudio{
+	display: none;
+}
+
+
+.header{
+	text-align:center;
+	width: 400px;
+	margin: auto;
+	padding-top: 20px;
+}
+.spirit_bear{
+
+}
+.spirit_mofu{
+
+}
+.search{
+	width: 100%;
+	height: 55px;
+	position: relative;
+}
+.search input{
+	width: 100%;
+	padding-right: 45px;
+}
+.search .search_button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-right: 40px;
+}
+.search_button{
+	overflow: hidden;
+}
+.search .search_button img{
+	width: 60%;
+}
+.search:after{
+	width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 5px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #ff7;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.
+

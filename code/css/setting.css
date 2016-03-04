@@ -1,0 +1,77 @@
+#setting{
+	text-align: center;
+	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#settingtitle{
+	font-size: 1.5rem;
+	line-height: 3rem;
+	text-align: left;
+	text-indent: 2em;
+	border-bottom: 1px solid #aaa;
+}
+#settingwrap{
+	padding: 20px;
+	max-width: 400px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+#newavatar{
+	position: relative;
+}
+#showavatar{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #999;
+	margin-left: 10px;
+}
+#showavatar img{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+#newavatarbtnwrap{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+#newavatarbtn{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.9rem;
+	background-color: #709cc9;
+	margin: 0;
+}
+.settingtip{
+	text-align: left;
+	font-size: 1rem;
+	margin-left: 4px;
+	color: #999;
+	margin-bottom: 15px;
+}
+.inputtext{
+
+}
+.inputradio{
+
+}
+#unbindbtnwrap{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+#unbindbtn{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.9rem;
+	background-color: #888;
+	margin: 0;
+}
+#settingbtn{
+	width: 60%;
+	background-color: #f26b8f;
+}

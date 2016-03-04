@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta charset="utf-8">
+	    <title>绑定情侣</title>
+	    <link href="assets/stylesheets/default.css" rel="stylesheet" type="text/css"> 
+	    <link rel="stylesheet" href="static/css/toolbar.css">
+	    <link href="css/special_space.css" rel="stylesheet" type="text/css">
+	    <link rel="stylesheet" href="static/css/mdtext.css">
+		<link rel="stylesheet" href="static/css/mdbtn.css">
+		<link rel="stylesheet" href="static/css/bind.css">
+		<script src="static/js/musicController.js"></script>
+		<script src="static/js/input.js"></script>
+		<script src="static/js/mdbtno.js"></script>
+		<script src="static/js/index.js"></script>
+	</head>
+	<body>
+	<div class="container space_header">
+		<div class="beforeheader">
+			<div class="headerusername"><a href="">周杰伦</a></div>
+			<audio id="musicaudio" controls="controls" preload="none"></audio>
+			<div class="headermusiccontroller" id="musiccontroller"><img src="static/img/turn_off.png"alt=""></div>
+		</div>
+		<a href="index.html"  class="logo"><img src="images/logo2.png"></a>
+		<div class="search space-search">
+			<input></input>
+			<div class="search_button"><span><img src="images/search.jpg" ></span></div>
+		</div>
+		<div class="main-nav">				
+			<ul class="toolbar" id="main_toolbar">
+				<li class="toolbar_content toolbar_animate_1"><span><a href="login.html" class="tool-text">退出</a></span></li>
+				<li class="toolbar_content toolbar_animate_2"><span><a href="space_pics.html" class="tool-text">空间</a></span></li>
+				<li class="toolbar_content toolbar_animate_3"><span><a href="friends.html" class="tool-text">朋友</a></span></li>
+				<li class="toolbar_content toolbar_animate_4"><span><a href="message.html" class="tool-text">消息</span></a></li>
+				<li class="toolbar_content toolbar_animate_5"><span><a href="fsetting.html" class="tool-text toolbar_showtag">设置</span></a></li>
+				<li class="toolbar_content toolbar_btn" id="toolbar_btn"><div class="rotate_heart hand" id="rotate_heart">❤</div></li>
+			</ul>
+		</div>	
+	</div>
+		
+	<div class="container subcolor bind">
+		<div id="bind">
+			<div id="bindtitle">绑定情侣</div>	
+			<div id="bindwrap">
+				<div id="bindintro">
+					<div class="bindtext">我们要长久地凝视河水，</div>
+					<div class="bindtext">直至我们变成两条小鱼，</div>
+					<div class="bindtext">重新认出对方。</div>
+				</div>
+				<div id="bindtarget">
+					<div class="inputtext">
+						<input type="text" name="target" id="target" tabindex="0" autocomplete="off">
+						<label for="target">His/Her Username</label>
+					</div>
+				</div>
+				<a href="space_pics.html"><div id="bindbtn" class="mdbtn submitbutton">绑定</div></a>
+			</div>
+		</div>
+	</div>
+
+<script>
+	mdbtn.init();
+	mdtext.init();
+</script>
+	</body>
+</html>
